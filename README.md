@@ -146,7 +146,7 @@ Job IDs are embedded in the result filenames and can be retrieved from IBM Quant
 Decker, E. (2026). Quantum Spectroscopy of the Mertens Weight Function
 on IBM Quantum Hardware. Independent Researcher.
 Academia.edu: https://www.academia.edu/[your-paper-id]
-Code DOI: [Zenodo DOI — add after upload]
+Code DOI: 10.5281/zenodo.20562836
 ```
 
 ---
