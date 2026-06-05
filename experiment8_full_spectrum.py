@@ -54,8 +54,8 @@ from qiskit import QuantumCircuit, QuantumRegister, ClassicalRegister
 from qiskit_ibm_runtime import QiskitRuntimeService, SamplerV2 as Sampler
 
 # -- Credentials ----------------------------------------------------------
-TOKEN    = "96axnVJAp_PkXhi7mpX8t_CVj1NtzqmHjaApLQ5Pn96Q"
-INSTANCE = "crn:v1:bluemix:public:quantum-computing:us-east:a/8420df4c778d45e59489b345c26d2c81:73caf2a1-d677-4d15-b711-f8f3fc73732a::"
+TOKEN    = "YOUR_IBM_QUANTUM_TOKEN_HERE"
+INSTANCE = "YOUR_IBM_INSTANCE_HERE"
 CHANNEL  = "ibm_quantum_platform"
 
 SHOTS       = 4096
