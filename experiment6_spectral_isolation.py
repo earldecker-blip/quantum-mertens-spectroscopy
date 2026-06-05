@@ -11,7 +11,7 @@ From the Exp 5 analysis:
   - f(n) = ln(n)/n has a unique maximum at n=e (value 1/e = 0.3679)
   - f(2) = f(4) EXACTLY — the only algebraic degeneracy in the integers
   - Primes 3,5,7,11,13,17,19 are spectrally isolated: gap to nearest
-    composite exceeds 0.005 (experimentally resolvable at alpha ~ 55)
+    composite exceeds 0.005 (experimentally resolvable at alpha ~ 55)h
   - The isolation gap scales as ~ln(p)/p^2, so small primes are
     anomalously well-separated relative to the asymptotic trend
 
@@ -61,8 +61,8 @@ from qiskit import QuantumCircuit, QuantumRegister, ClassicalRegister
 from qiskit_ibm_runtime import QiskitRuntimeService, SamplerV2 as Sampler
 
 # ── Credentials ───────────────────────────────────────────────────────────────
-TOKEN    = "96axnVJAp_PkXhi7mpX8t_CVj1NtzqmHjaApLQ5Pn96Q"
-INSTANCE = "crn:v1:bluemix:public:quantum-computing:us-east:a/8420df4c778d45e59489b345c26d2c81:73caf2a1-d677-4d15-b711-f8f3fc73732a::"
+TOKEN    = "YOUR_IBM_QUANTUM_TOKEN_HERE"
+INSTANCE = "YOUR_IBM_INSTANCE_HERE"
 CHANNEL  = "ibm_quantum_platform"
 
 SHOTS   = 4096
